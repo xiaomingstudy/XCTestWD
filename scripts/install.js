@@ -59,7 +59,7 @@ const updateInformation = function() {
   }
 };
 
-const version = doctorIOS.getXcodeVersion();
+const version = 9.2;
 const pkgName = `${xctestwdFrameworksPrefix}${version}`;
 const dir = require.resolve(pkgName);
 const originDir = path.join(dir, '..', 'Carthage');
